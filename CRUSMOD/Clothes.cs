@@ -10,7 +10,7 @@ namespace CRUSMOD
             get { return _city; }
             set 
            { if (!Regex.IsMatch(value, @"[A-Za-z .]+$")) 
-            throw new Exception("City can only hold letters");
+            throw new Exception("City can only hold letters ");
             _city = value;
         }
             
